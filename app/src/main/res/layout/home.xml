@@ -24,9 +24,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
+        android:contentDescription="Info"
         android:src="@drawable/baseline_menu_24"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar1"
-        app:layout_constraintStart_toStartOf="@+id/toolbar1"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -37,6 +38,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
+        android:contentDescription="Profile"
         android:src="@drawable/baseline_person_2_24"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar1"
         app:layout_constraintEnd_toEndOf="@+id/toolbar1"
@@ -49,6 +51,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
+        android:contentDescription="Home"
         android:src="@drawable/baseline_catching_pokemon_24"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar1"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
