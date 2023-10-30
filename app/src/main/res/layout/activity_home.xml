@@ -7,7 +7,7 @@
     tools:context=".Home">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarDefault"
+        android:id="@+id/toolbarHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/background_dark"
@@ -26,7 +26,7 @@
         android:background="@android:color/transparent"
         android:contentDescription="Info"
         android:src="@drawable/baseline_menu_24"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarHome"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -40,8 +40,8 @@
         android:background="@android:color/transparent"
         android:contentDescription="Profile"
         android:src="@drawable/baseline_person_2_24"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
-        app:layout_constraintEnd_toEndOf="@+id/toolbarDefault"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarHome"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarHome"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
@@ -53,10 +53,10 @@
         android:background="@android:color/transparent"
         android:contentDescription="Home"
         android:src="@drawable/baseline_catching_pokemon_24"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarHome"
         app:layout_constraintEnd_toStartOf="@+id/imageButtonHome2"
         app:layout_constraintStart_toEndOf="@+id/imageButtonHome1"
-        app:layout_constraintTop_toTopOf="@+id/toolbarDefault" />
+        app:layout_constraintTop_toTopOf="@+id/toolbarHome" />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -66,7 +66,7 @@
         android:layout_marginTop="16dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarDefault">
+        app:layout_constraintTop_toBottomOf="@+id/toolbarHome">
 
         <TextView
             android:id="@+id/textView1"
@@ -116,7 +116,7 @@
         android:layout_marginEnd="16dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarDefault">
+        app:layout_constraintTop_toBottomOf="@+id/toolbarHome">
 
         <TextView
             android:id="@+id/textView3"
