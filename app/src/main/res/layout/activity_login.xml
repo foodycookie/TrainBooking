@@ -41,6 +41,12 @@
             android:text="Login"
             android:textSize="50dp" />
 
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
