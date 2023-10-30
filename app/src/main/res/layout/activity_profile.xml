@@ -69,6 +69,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbarDefault">
 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="35dp"
+            android:layout_marginLeft="139.5dp" />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
@@ -76,75 +92,75 @@
             android:src="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="109.5dp"
             android:text="Username"
-            android:textSize="35dp"
-            android:layout_marginLeft="109.5dp" />
+            android:textSize="35dp" />
 
         <View
-            android:id="@+id/divider1"
+            android:id="@+id/divider2"
             android:layout_width="match_parent"
             android:layout_height="5dp"
-            android:background="?android:attr/listDivider"
             android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/listDivider" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="I like eggs."
             android:textSize="25dp" />
 
         <View
-            android:id="@+id/divider2"
+            android:id="@+id/divider3"
             android:layout_width="match_parent"
             android:layout_height="5dp"
-            android:background="?android:attr/listDivider"
             android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/listDivider" />
 
         <Button
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="Edit Profile"
-            android:textSize="30dp"
-            android:layout_marginBottom="8dp" />
+            android:textSize="30dp" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="My Booking"
-            android:textSize="30dp"
-            android:layout_marginBottom="8dp" />
+            android:textSize="30dp" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="Recent Purchase"
-            android:textSize="30dp"
-            android:layout_marginBottom="8dp" />
+            android:textSize="30dp" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="Setting"
-            android:textSize="30dp"
-            android:layout_marginBottom="8dp" />
+            android:textSize="30dp" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="Log Out"
-            android:textSize="30dp"
-            android:layout_marginBottom="8dp" />
+            android:textSize="30dp" />
 
     </LinearLayout>
 
