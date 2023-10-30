@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Profile">
+    tools:context=".EditProfile">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarProfile"
@@ -70,97 +70,68 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbarProfile">
 
         <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Profile"
-            android:textSize="35dp"
-            android:layout_marginLeft="139.5dp" />
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="35dp"
+        android:layout_marginLeft="105.5dp" />
 
         <View
-            android:id="@+id/divider1"
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:background="?android:attr/listDivider"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp" />
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
 
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="match_parent"
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@tools:sample/avatars" />
+            android:layout_marginLeft="162.5dp"
+            android:contentDescription="Tap to change your profile picture."
+            android:src="@android:drawable/btn_star" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="109.5dp"
-            android:text="Username"
-            android:textSize="35dp" />
+        <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="35dp"
+        android:ems="18" />
 
         <View
-            android:id="@+id/divider2"
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="?android:attr/listDivider" />
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/listDivider" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="I like eggs."
-            android:textSize="25dp" />
+        <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="I like eggs."
+        android:textSize="25dp"
+        android:ems="18" />
 
         <View
-            android:id="@+id/divider3"
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="?android:attr/listDivider" />
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/listDivider" />
 
         <Button
-            android:id="@+id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:text="Edit Profile"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:text="My Booking"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:text="Recent Purchase"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:text="Setting"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:text="Log Out"
-            android:textSize="30dp" />
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Save Change"
+        android:textSize="30dp" />
 
     </LinearLayout>
 
