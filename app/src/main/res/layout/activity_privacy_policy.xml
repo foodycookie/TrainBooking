@@ -59,6 +59,7 @@
         app:layout_constraintTop_toTopOf="@+id/toolbarDefault" />
 
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="368dp"
         android:layout_height="801dp"
         android:orientation="vertical"

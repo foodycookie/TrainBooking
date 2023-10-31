@@ -59,6 +59,7 @@
         app:layout_constraintTop_toTopOf="@+id/toolbarProfile" />
 
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
