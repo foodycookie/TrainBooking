@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Profile">
+    tools:context=".Info">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarProfile"
+        android:id="@+id/toolbarDefault"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/background_dark"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButtonProfile1"
+        android:id="@+id/imageButtonDefault1"
         android:layout_width="72dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
@@ -26,26 +26,26 @@
         android:background="@android:color/transparent"
         android:contentDescription="Back"
         android:src="@drawable/baseline_arrow_back_24"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarProfile"
-        app:layout_constraintStart_toStartOf="@+id/toolbarProfile"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
+        app:layout_constraintStart_toStartOf="@+id/toolbarDefault"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
-        android:id="@+id/imageButtonProfile2"
+        android:id="@+id/imageButtonDefault2"
         android:layout_width="72dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
-        android:contentDescription="Info"
-        android:src="@drawable/baseline_menu_24"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarProfile"
-        app:layout_constraintEnd_toEndOf="@+id/toolbarProfile"
+        android:contentDescription="Profile"
+        android:src="@drawable/baseline_person_2_24"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarDefault"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButtonProfile3"
+        android:id="@+id/imageButtonDefault3"
         android:layout_width="72dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
@@ -53,10 +53,10 @@
         android:background="@android:color/transparent"
         android:contentDescription="Home"
         android:src="@drawable/baseline_catching_pokemon_24"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarProfile"
-        app:layout_constraintEnd_toStartOf="@+id/imageButtonProfile2"
-        app:layout_constraintStart_toEndOf="@+id/imageButtonProfile1"
-        app:layout_constraintTop_toTopOf="@+id/toolbarProfile" />
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonDefault2"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonDefault1"
+        app:layout_constraintTop_toTopOf="@+id/toolbarDefault" />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -68,15 +68,15 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarProfile">
+        app:layout_constraintTop_toBottomOf="@+id/toolbarDefault">
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Profile"
+            android:text="Info"
             android:textSize="35dp"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"/>
 
         <View
             android:id="@+id/divider1"
@@ -86,50 +86,12 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp" />
 
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/baseline_catching_pokemon_25"
-            android:layout_gravity="center" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Username"
-            android:textSize="35dp" />
-
-        <View
-            android:id="@+id/divider2"
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="?android:attr/listDivider" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="I like eggs."
-            android:textSize="25dp" />
-
-        <View
-            android:id="@+id/divider3"
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="?android:attr/listDivider" />
-
         <Button
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Edit Profile"
+            android:text="Route"
             android:textSize="30dp" />
 
         <Button
@@ -137,7 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="My Booking"
+            android:text="Train Operator"
             android:textSize="30dp" />
 
         <Button
@@ -145,7 +107,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Recent Purchase"
+            android:text="Train Station"
             android:textSize="30dp" />
 
         <Button
@@ -153,7 +115,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Setting"
+            android:text="News"
             android:textSize="30dp" />
 
         <Button
@@ -161,7 +123,55 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Logout"
+            android:text="Promotion"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="How to Book"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="FAQ"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Terms of Use"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Privacy Policy"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="About Us"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Contact Us"
             android:textSize="30dp" />
 
     </LinearLayout>

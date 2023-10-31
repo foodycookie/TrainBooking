@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditProfile">
+    tools:context=".Route">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarProfile"
+        android:id="@+id/toolbarDefault"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/background_dark"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButtonProfile1"
+        android:id="@+id/imageButtonDefault1"
         android:layout_width="72dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
@@ -26,26 +26,26 @@
         android:background="@android:color/transparent"
         android:contentDescription="Back"
         android:src="@drawable/baseline_arrow_back_24"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarProfile"
-        app:layout_constraintStart_toStartOf="@+id/toolbarProfile"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
+        app:layout_constraintStart_toStartOf="@+id/toolbarDefault"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
-        android:id="@+id/imageButtonProfile2"
+        android:id="@+id/imageButtonDefault2"
         android:layout_width="72dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
-        android:contentDescription="Info"
-        android:src="@drawable/baseline_menu_24"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarProfile"
-        app:layout_constraintEnd_toEndOf="@+id/toolbarProfile"
+        android:contentDescription="Profile"
+        android:src="@drawable/baseline_person_2_24"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarDefault"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButtonProfile3"
+        android:id="@+id/imageButtonDefault3"
         android:layout_width="72dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
@@ -53,10 +53,10 @@
         android:background="@android:color/transparent"
         android:contentDescription="Home"
         android:src="@drawable/baseline_catching_pokemon_24"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarProfile"
-        app:layout_constraintEnd_toStartOf="@+id/imageButtonProfile2"
-        app:layout_constraintStart_toEndOf="@+id/imageButtonProfile1"
-        app:layout_constraintTop_toTopOf="@+id/toolbarProfile" />
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonDefault2"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonDefault1"
+        app:layout_constraintTop_toTopOf="@+id/toolbarDefault" />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -68,17 +68,17 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarProfile">
+        app:layout_constraintTop_toBottomOf="@+id/toolbarDefault">
 
-        <TextView
+    <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Edit Profile"
+        android:text="Route"
         android:textSize="35dp"
         android:layout_gravity="center" />
 
-        <View
+    <View
         android:id="@+id/divider1"
         android:layout_width="match_parent"
         android:layout_height="5dp"
@@ -86,53 +86,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp" />
 
-        <ImageButton
-            android:id="@+id/imageButton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:contentDescription="Tap to change your profile picture."
-            android:src="@android:drawable/btn_star" />
-
-        <EditText
-        android:id="@+id/editTextText1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Username"
-        android:textSize="35dp"
-        android:ems="18" />
-
-        <View
-        android:id="@+id/divider2"
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="?android:attr/listDivider" />
-
-        <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="I like eggs."
-        android:textSize="25dp"
-        android:ems="18" />
-
-        <View
-        android:id="@+id/divider3"
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="?android:attr/listDivider" />
-
-        <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:text="Save Change"
-        android:textSize="30dp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="Detail"
+            android:textSize="30dp" />
 
     </LinearLayout>
 

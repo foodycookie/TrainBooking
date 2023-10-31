@@ -70,9 +70,9 @@
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="49dp"
-            android:layout_marginLeft="41.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="From?"
             android:textSize="35dp" />
 
@@ -95,11 +95,11 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="To?"
-            android:textSize="35dp"
-            android:layout_marginLeft="62.5dp"/>
+            android:textSize="35dp" />
 
         <Spinner
             android:id="@+id/spinner2"
@@ -120,11 +120,11 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Date?"
-            android:textSize="35dp"
-            android:layout_marginLeft="46dp" />
+            android:textSize="35dp" />
 
         <Spinner
             android:id="@+id/spinner3"
@@ -145,11 +145,11 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Pax?"
-            android:textSize="35dp"
-            android:layout_marginLeft="53dp"/>
+            android:textSize="35dp" />
 
         <Spinner
             android:id="@+id/spinner4"

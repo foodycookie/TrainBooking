@@ -19,7 +19,7 @@
             android:id="@+id/imageView1"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginLeft="156dp"
+            android:layout_gravity="center"
             android:src="@drawable/baseline_catching_pokemon_25" />
     </LinearLayout>
 
@@ -38,7 +38,7 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="104dp"
+            android:layout_gravity="center"
             android:text="Sign Up"
             android:textSize="50dp" />
 
