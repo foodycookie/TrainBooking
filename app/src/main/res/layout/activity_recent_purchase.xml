@@ -39,7 +39,7 @@
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
         android:contentDescription="Profile"
-        android:src="@drawable/baseline_person_2_24"
+        android:src="@drawable/baseline_menu_24"
         app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
         app:layout_constraintEnd_toEndOf="@+id/toolbarDefault"
         app:layout_constraintTop_toTopOf="parent" />
@@ -85,32 +85,26 @@
             android:background="?android:attr/listDivider"
             android:layout_marginTop="8dp" />
 
-        <TextView
-            android:id="@+id/textView2"
+        <ImageButton
+            android:id="@+id/imageButton1"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:text="Receipt C"
-            android:textSize="35dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp" />
+            android:layout_height="125dp"
+            android:src="@android:drawable/btn_star"
+            android:contentDescription="Receipt 3" />
 
-        <TextView
-            android:id="@+id/textView3"
+        <ImageButton
+            android:id="@+id/imageButton2"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:text="Receipt B"
-            android:textSize="35dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp" />
+            android:layout_height="125dp"
+            android:src="@android:drawable/btn_star"
+            android:contentDescription="Receipt 2" />
 
-        <TextView
-            android:id="@+id/textView4"
+        <ImageButton
+            android:id="@+id/imageButton3"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:text="Receipt A"
-            android:textSize="35dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp" />
+            android:layout_height="125dp"
+            android:src="@android:drawable/btn_star"
+            android:contentDescription="Receipt 1" />
 
     </LinearLayout>
 

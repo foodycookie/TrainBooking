@@ -15,12 +15,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView1"
+        <ImageButton
+            android:id="@+id/imageButton1"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:src="@drawable/baseline_catching_pokemon_25" />
+            android:src="@drawable/baseline_catching_pokemon_25"
+            android:contentDescription="Home" />
     </LinearLayout>
 
     <LinearLayout
@@ -152,21 +153,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sign Up"
-            android:textSize="25dp" />
+            android:textSize="25dp"
+            android:layout_marginBottom="8dp" />
 
-        <TextView
-            android:id="@+id/textView11"
+        <Button
+            android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text="Back"
+            android:textSize="25dp"
+            android:layout_marginBottom="8dp" />
 
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Have an account? Login!"
-            android:layout_marginLeft="183dp"
-            android:textSize="18dp" />
+        <!--        <TextView-->
+<!--            android:id="@+id/textView12"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Have an account? Login!"-->
+<!--            android:layout_marginLeft="183dp"-->
+<!--            android:textSize="18dp" />-->
 
     </LinearLayout>
 

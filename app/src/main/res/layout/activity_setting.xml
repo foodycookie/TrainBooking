@@ -39,7 +39,7 @@
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
         android:contentDescription="Profile"
-        android:src="@drawable/baseline_person_2_24"
+        android:src="@drawable/baseline_menu_24"
         app:layout_constraintBottom_toBottomOf="@+id/toolbarDefault"
         app:layout_constraintEnd_toEndOf="@+id/toolbarDefault"
         app:layout_constraintTop_toTopOf="parent" />
@@ -129,6 +129,14 @@
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Change"
+            android:textSize="30dp"
             android:layout_marginBottom="8dp" />
 
     </LinearLayout>
